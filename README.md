@@ -1,72 +1,56 @@
-Omar Rehan — Portfolio (Next.js)
+Omar Rehan — Portfolio
 
-A modern, dark-themed, one-page developer portfolio showcasing real projects
-and frontend engineering skills.
+A modern, dark-themed, one-page developer portfolio showcasing
+real frontend projects and engineering skills.
 
---------------------------------------------------
-Tech Stack
---------------------------------------------------
+---
+
+## Tech Stack
+
 - Next.js (App Router)
 - TypeScript
 - Tailwind CSS
 - Framer Motion
 
---------------------------------------------------
-Run locally
---------------------------------------------------
+---
+
+## Getting Started
+
+Install dependencies and run the development server:
+
 npm install
 npm run dev
 
-Open http://localhost:3000
+The application will be available at:
+http://localhost:3000
 
---------------------------------------------------
-Deploy (recommended): Vercel
---------------------------------------------------
-1) Push this repository to GitHub
-2) Import the repo into Vercel
-3) Deploy
+---
 
-Done.
+## Deployment
 
---------------------------------------------------
-Deploy: GitHub Pages (optional)
---------------------------------------------------
-Next.js requires static export for GitHub Pages.
+This project is optimized for deployment on Vercel.
 
-1) Edit next.config.mjs and add:
+Typical workflow:
 
-const nextConfig = {
-  output: "export",
-  images: { unoptimized: true },
-};
+- Push the repository to GitHub
+- Import the project into Vercel
+- Deploy
 
-2) Build the project:
-npm run build
+---
 
-3) Upload the generated "out/" folder to GitHub Pages
-  (or use a GitHub Action).
+## Project Structure
 
---------------------------------------------------
-Update your data
---------------------------------------------------
-All portfolio content (projects, skills, links) is managed from:
+All portfolio content (projects, skills, links) is managed
+from a single data file:
 
 src/data/portfolio.ts
 
-This makes the project fully data-driven and easy to maintain
-without touching UI components.
+This makes the project easy to maintain and extend
+without modifying UI components.
 
---------------------------------------------------
-Replace images
---------------------------------------------------
-- Profile photo:
-  public/profile-placeholder.png
+---
 
-- Project cover images:
-  public/projects/**
+## Author
 
---------------------------------------------------
-Author
---------------------------------------------------
 Omar Rehan
 Frontend Software Engineer
