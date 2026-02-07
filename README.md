@@ -1,52 +1,72 @@
-# Omar Rehan — Portfolio (Next.js)
+Omar Rehan — Portfolio (Next.js)
 
-A modern, dark, one-page portfolio built with **Next.js + Tailwind + Framer Motion**.
+A modern, dark-themed, one-page developer portfolio showcasing real projects
+and frontend engineering skills.
 
-## Run locally
+--------------------------------------------------
+Tech Stack
+--------------------------------------------------
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-```bash
+--------------------------------------------------
+Run locally
+--------------------------------------------------
 npm install
 npm run dev
-```
 
 Open http://localhost:3000
 
-## Deploy (recommended): Vercel
+--------------------------------------------------
+Deploy (recommended): Vercel
+--------------------------------------------------
+1) Push this repository to GitHub
+2) Import the repo into Vercel
+3) Deploy
 
-- Push this repo to GitHub
-- Import it in Vercel
-- Done ✅
+Done.
 
-## Deploy: GitHub Pages (optional)
+--------------------------------------------------
+Deploy: GitHub Pages (optional)
+--------------------------------------------------
+Next.js requires static export for GitHub Pages.
 
-Next.js needs **static export** for GitHub Pages.
+1) Edit next.config.mjs and add:
 
-1) Edit `next.config.mjs` and add:
-
-```js
 const nextConfig = {
   output: "export",
   images: { unoptimized: true },
 };
-```
 
-2) Build:
-
-```bash
+2) Build the project:
 npm run build
-```
 
-3) Upload the generated `out/` folder to GitHub Pages (or use a GH Action).
+3) Upload the generated "out/" folder to GitHub Pages
+  (or use a GitHub Action).
 
-## Update your data
+--------------------------------------------------
+Update your data
+--------------------------------------------------
+All portfolio content (projects, skills, links) is managed from:
 
-All your content is here:
+src/data/portfolio.ts
 
-`src/data/portfolio.ts`
+This makes the project fully data-driven and easy to maintain
+without touching UI components.
 
-## Replace images
+--------------------------------------------------
+Replace images
+--------------------------------------------------
+- Profile photo:
+  public/profile-placeholder.png
 
-- Profile photo: `public/profile-placeholder.png`
-- Project covers: `public/projects/**`
+- Project cover images:
+  public/projects/**
 
-Tip: You already have real screenshots for the Order Management Dashboard.
+--------------------------------------------------
+Author
+--------------------------------------------------
+Omar Rehan
+Frontend Software Engineer
