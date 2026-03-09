@@ -18,7 +18,7 @@ export const portfolio = {
 	whatsappUrl: "https://wa.me/201159018058",
 	githubUrl: "https://github.com/OmarRehan777",
 	linkedinUrl: "https://www.linkedin.com/in/omarrehan/",
-	cvPath: "https://drive.google.com/uc?export=download&id=19EkcSzz-6bkejA2wDV3z67doJNA-RcPl",
+	cvPath: "https://drive.google.com/uc?export=download&id=1oIsPzI8IHjOdv0dkDWWfYfFADnXlJYwf",
 
 	summary: [
 		"Frontend-focused software engineer specialized in building responsive, user-friendly web apps using React, Next.js, and Tailwind CSS.",
