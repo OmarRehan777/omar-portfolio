@@ -71,7 +71,7 @@ export const portfolio = {
 	projects: [
 		{
 			title: "Order Management Dashboard",
-			status: "In Progress",
+			status: "Live",
 			description:
 				"A modern admin dashboard for managing and reviewing orders. Built with Next.js App Router and TypeScript, designed for data-dense workflows and responsive layouts.",
 			highlights: [
@@ -82,6 +82,7 @@ export const portfolio = {
 			stack: ["Next.js", "TypeScript", "Tailwind CSS"],
 			repoUrl:
 				"https://github.com/OmarRehan777/order-management-dashboard",
+			liveUrl: "https://cairo-cafe.vercel.app/",
 			image: "/projects/order-management/OMD thumbnail.png",
 		},
 		{
