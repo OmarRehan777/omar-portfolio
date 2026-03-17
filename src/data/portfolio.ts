@@ -70,10 +70,10 @@ export const portfolio = {
 
 	projects: [
 		{
-			title: "Order Management Dashboard",
+			title: "Cairo Café - Cafe POS & Management System",
 			status: "Live",
 			description:
-				"A modern admin dashboard for managing and reviewing orders. Built with Next.js App Router and TypeScript, designed for data-dense workflows and responsive layouts.",
+				"A web application that simulates a real-world cafe operations platform.",
 			highlights: [
 				"Table-first, data-dense admin UI with route-driven navigation state.",
 				"Order details views with structured, scannable information.",
