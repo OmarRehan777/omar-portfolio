@@ -167,7 +167,7 @@ export default function Page() {
 							<p className="text-sm text-zinc-200/80 leading-relaxed">
 								Graduated 2024 from Faculty of Engineering, Ain
 								Shams University, Computer and Systems
-								Engineering Department (CSE)
+								Engineering Department (CSE).
 							</p>
 							<p className="text-sm text-zinc-200/80 leading-relaxed">
 								I build modern frontend experiences that stay
