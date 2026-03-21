@@ -58,7 +58,7 @@ export const portfolio = {
 	experience: [
 		{
 			role: "Voluntary Technical Instructor",
-			org: "Ain Shams University",
+			org: "Faculty of Engineering - Ain Shams University",
 			period: "2023 & 2024",
 			bullets: [
 				"Delivered Python fundamentals to junior students across multiple cohorts with a focus on problem-solving.",
