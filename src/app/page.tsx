@@ -166,10 +166,10 @@ export default function Page() {
 						<div className="lg:col-span-2 rounded-3xl bg-white/5 ring-1 ring-white/10 p-6 shadow-glow">
 							<p className="text-sm text-zinc-200/80 leading-relaxed">
 								Graduated 2024 from Faculty of Engineering, Ain
-								Shams University, Computer and Systems
+								Shams University,<br></br> Computer and Systems
 								Engineering Department (CSE).
 							</p>
-							<p className="text-sm text-zinc-200/80 leading-relaxed">
+							<p className="mt-4 text-sm text-zinc-200/80 leading-relaxed">
 								I build modern frontend experiences that stay
 								clean under real-world requirements: data-dense
 								UIs, responsive admin layouts, and pragmatic
